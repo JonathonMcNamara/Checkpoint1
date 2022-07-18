@@ -1,0 +1,52 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    background-color: #343a40;
+}
+header {
+    margin: 0;
+}
+nav {
+    background-color: #343a40;
+}
+
+@media screen and (max-width: 800px) {
+    div.media {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    div.card1 {
+      position: absolute;
+      margin-top: 5em;
+      offset: 6em;
+    }
+  }
+
+
+
+
+.btn{
+    outline: none!important;
+    box-shadow: none!important;
+    border-style: none!important;
+    padding: 0;
+}
+
+
+
+.hero-img{
+    background-image: url(https://images.unsplash.com/photo-1600793575654-910699b5e4d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+    padding-top: 12em;
+    padding-bottom: 12em;
+
+}
+.img{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2015%2F09%2Fpaul-walker-01-435-3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 20em;
+}
